@@ -11,6 +11,7 @@ $gender ='femme';
   <body>
     <p>
       <?php
+      // Vous etes majeur et un homme
       if ($age >= 18 AND $gender == 'homme')
       {
       echo 'vous etes majeur et un homme';
